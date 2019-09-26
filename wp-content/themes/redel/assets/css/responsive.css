@@ -1,0 +1,1710 @@
+/**
+ * VictorThemes Styling
+*/
+
+/* Desktop Small Size */
+
+@media screen and (max-width:1360px) {
+  /* Normal CSS */
+  .redl-app-features .row {
+    margin: 0 -15px;
+  }
+  .redl-app-features .col-md-4, .redl-app-features .col-md-6 {
+    padding: 0 15px;
+  }
+  .redl-default-slider .owl-nav .owl-prev {
+    left: 0;
+  }
+  .redl-default-slider .owl-nav .owl-next {
+    right: 0;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  .map-with-contact-form.vc_column_container,
+  .map-with-contact-form {
+    padding-right: 10%;
+  }
+
+}
+
+@media screen and (max-width:1279px) {
+  /* Normal CSS */
+  br {
+    display: none;
+  }
+  .row {
+    margin: 0 !important;
+  }
+  .redl-parallax-bg {
+    background-position: 50% 50% !important;
+  }
+  .redl-banner.video-banner.app-video-banner-height {height: 700px;}
+  .redl-caption-wrap {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .redl-caption-wrap .redl-box-form {
+    padding: 30px;
+    position: relative;
+    overflow:auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+    z-index: 2;
+  }
+  .subscribe-link {
+    display: block;
+  }
+  .close-btn {
+    display: block;
+  }
+  .redl-banner.active .container {
+    z-index: 10;
+  }
+  .redl-caption-wrap .col-md-6.form-column {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+    z-index: 99;
+  }
+  .redl-banner.active .col-md-6.form-column {
+    display: table;
+  }
+  .form-column:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    content: "";
+    z-index: 1;
+  }
+  .subscribe-wrap {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .redl-banner.center-align .redl-heading-wrap {
+    float: left;
+    height: auto;
+    display: block;
+    padding: 0;
+  }
+  .redl-caption-wrap .row {
+    height: 100%;
+  }
+  .redl-caption-wrap .col-md-6 {
+    float: none;
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+ .redl-caption-wrap .redl-heading-wrap {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .redl-caption-wrap .heading-picture {
+    display: none;
+  }
+  .redl-app-info .col-md-6 {
+    padding: 0 15px;
+  }
+  .redl-app-info .animateblock {
+    float: right;
+    padding: 0;
+  }
+  .redl-app-features {
+    padding: 84px 0 33px;
+  }
+  .redl-app-benefites {
+    padding: 82px 0 47px;
+  }
+  .redl-benefites-wrap .col-md-4 {
+    padding: 0 15px;
+  }
+  .redl-benefites-wrap .col-md-4.align-space {
+    padding-top: 78px;
+  }
+  .redl-benefites-wrap .redl-service {
+    padding: 15px 0;
+  }
+  .redl-benefites-wrap .redl-service [class^="ti-"] {
+    padding-bottom: 10px;
+  }
+  .redl-benefites-wrap .redl-service-name {
+    padding-bottom: 5px;
+  }
+  .redl-app-screens {
+    padding: 81px 0;
+  }
+  .redl-app-screens .section-heading-wrap, .redl-pricing .section-heading-wrap {
+    padding-bottom: 30px;
+  }
+  .redl-pricing .container {
+    width: 970px;
+  }
+  .redl-pricing .col-md-4 {
+    padding: 0 5px;
+  }
+  .pricing-item {
+    padding: 36px 40px 39px;
+  }
+  .redl-testimonials, .redl-testimonials.style2 {
+    padding: 93px 0 77px;
+  }
+  .redl-get-app .animateblock {
+    left: 0;
+  }
+  .redl-get-app .animateblock.slideinup-two {
+    right: 40px;
+  }
+  .redl-subscribe-form, .redl-subscribe-form.style2 {
+    padding: 80px 0;
+  }
+  /* Mobile App Solid Page CSS */
+  .redl-app-view {
+    padding: 80px 0 40px;
+  }
+  #carousel-a {
+    margin-left: -200px;
+  }
+  #carousel-c {
+    width: 40%;
+    margin: 50px 0 0 50px;
+  }
+  #carousel-c .item .section-heading {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #carousel-c .app-screen-info {
+    padding: 55px 0 0;
+  }
+  #carousel-c .carousel-indicators {
+    top: 90px;
+  }
+  #carousel-c .item ul {
+    padding-top: 5px;
+  }
+  #carousel-c .item ul li {
+    padding-left: 35px;
+    margin-bottom: 10px;
+  }
+  /* Web App Solid Page CSS */
+  .redl-banner.center-align .redl-caption-wrap {
+    padding-top: 150px;
+  }
+  .redl-app-features.style2 {
+    padding-bottom: 40px;
+  }
+  .redl-app-info.style2 {
+    padding: 80px 0 100px;
+  }
+  .redl-app-info.style2 .col-md-6 {
+    width: 100%;
+    padding: 0;
+  }
+  .redl-app-info.style2 .app-info-wrap {
+    padding: 0 0 50px;
+  }
+  .redl-app-info.style2 .redl-video img {
+    width: 100%;
+  }
+  .redl-app-info.style2 .redl-video iframe {
+    height: 594px;
+  }
+  .feature-info-wrap {
+    width: 100%;
+    margin: 0;
+  }
+  .feature-info-wrap h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .feature-info-wrap h4 {
+    margin-bottom: 10px;
+  }
+  .feature-info-wrap ul {
+    padding: 0 0 10px;
+  }
+  .redl-app-features.style2 .container {
+    width: 970px;
+  }
+  .redl-feature-deatil.style2 .feature-info-wrap {
+    width: 100%;
+  }
+  .redl-feature-deatil.style2 .clearfix {
+    padding-top: 10px;
+  }
+  .redl-team {
+    padding: 80px 0 60px;
+  }
+  .redl-team .section-heading-wrap {
+    padding-bottom: 40px;
+  }
+  .redl-feature-deatil {
+    padding: 100px 0;
+  }
+  /* Web Service Solid Page CSS */
+  .redl-app-features.style3 {
+    padding: 80px 0;
+  }
+  .redl-app-features.style3 .col-md-4 {
+    padding: 0 5px;
+  }
+  .redl-app-features.style3 .redl-service {
+    padding: 30px 30px 20px;
+  }
+  .redl-app-features.style3 .redl-service-name {
+    padding-bottom: 10px;
+  }
+  .learn-more{
+    padding-top: 40px;
+  }
+  .redl-app-info.style3 {
+    padding: 80px 0;
+  }
+  .redl-app-info.style3 .section-heading {
+    font-size: 26px;
+  }
+  .redl-app-info.style3 .app-info-wrap {
+    padding-top: 0;
+  }
+  .redl-app-overview {
+    padding: 80px 0;
+  }
+  .redl-app-overview .section-heading-wrap {
+    padding-bottom: 5px;
+  }
+  .redl-app-overview .section-heading {
+    font-size: 24px;
+  }
+  .redl-app-overview ul.overview-bullets {
+    padding-top: 5px;
+    padding-left: 0;
+  }
+  .redl-app-overview ul.overview-bullets li {
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .redl-app-overview ul.overview-bullets.style2 li {
+    width: 100%;
+  }
+  .redl-app-overview .overview-picture img {
+    max-width: 380px;
+  }
+  .redl-app-overview .nav-tabs > li > a {
+    padding: 18px;
+  }
+  .redl-testimonials.style3 {
+    padding: 80px 0;
+  }
+  .redl-testimonials.style3 .container {
+    width: 970px;
+  }
+  .redl-testimonials.style3 .section-heading-wrap {
+    padding-bottom: 15px;
+  }
+  .redl-testimonials.style3 .owl-item .item {
+    padding: 25px;
+    margin: 0 5px;
+  }
+  .redl-testimonials.style3 .testimonial-owner {
+    padding-top: 0;
+  }
+  .redl-testimonials.style3 p {
+    font-size: 14px;
+  }
+  .redl-testimonials.style3 .testimonial-owner img {
+    margin-bottom: 10px;
+    width: 80px;
+  }
+  .redl-free-trial {
+    padding: 80px 0;
+  }
+  .redl-contact .col-md-6 {
+    width: 100%;
+  }
+  .redl-contact .section-heading-wrap {
+    padding-bottom: 15px;
+  }
+  .redl-custom-map {
+    height: 400px;
+  }
+  .contact-form {
+    position: static;
+    float: left;
+    width: 100%;
+    padding: 50px;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .redl-footer .col-md-4 {
+    width: 50%;
+  }
+  .primary-footer {
+    padding: 60px 0;
+  }
+  .subscribe-form {
+    display: inline-block;
+    width: 100%;
+  }
+  /* Blog Page CSS */
+  .redl-page-heading {
+    padding: 50px 0;
+  }
+  .redl-primary {
+    width: 70%;
+  }
+  .primary-wrap {
+    padding: 50px 25px 50px 0;
+  }
+  .blog-item {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  .blog-item:last-child {
+    margin-bottom: 25px;
+  }
+  .blog-picture {
+    padding-bottom: 25px;
+  }
+  .blog-title {
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  .blog-item .clearfix {
+    padding-top: 5px;
+  }
+  .redl-secondary {
+    width: 30%;
+  }
+  .secondary-wrap {
+    padding: 50px 0 0 25px;
+  }
+  .search-box {
+    padding-bottom: 10px;
+  }
+  .secondary-item, .secondary-item.recent-news, .secondary-item.top-tags {
+    padding-bottom: 10px;
+  }
+  .secondary-item h5 {
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  .secondary-item.top-tags h5, .secondary-item.recent-news h5 {
+    margin-bottom: 15px;
+  }
+  /* Blog Single Page CSS */
+  .blog-detail h4 {
+    margin-bottom: 10px;
+  }
+  .blog-detail p {
+    margin-bottom: 20px;
+  }
+  blockquote {
+    margin: 10px 0 30px 40px;
+  }
+  code {
+    margin: 10px 0 25px;
+  }
+  code br {
+    display: block;
+  }
+  .blog-picture.spacer {
+    padding: 10px 0 30px;
+  }
+  .bp-bottom-meta {
+    margin-top: 10px;
+  }
+  .redl-author-info {
+    padding: 25px 25px 10px;
+    margin-top: 20px;
+  }
+  .author-content {
+    padding-left: 20px;
+  }
+  .comments-section {
+    padding: 25px 0 0;
+  }
+  .redl-comments-area .comments-title {
+    margin-bottom: 15px;
+  }
+  .redl-comments-area .comment-wrapper {
+    padding-bottom: 10px;
+  }
+  .redl-comments-area .comment-main-area {
+    padding-left: 25px;
+    margin-bottom: 25px;
+  }
+  .redl-comments-area .redl-comments-meta {
+    margin-bottom: 5px;
+  }
+  .redl-comments-area .comments li .children li {
+    padding-left: 100px;
+  }
+  .comment-reply-title {
+    margin-bottom: 15px;
+  }
+  .redl-comment-form {
+    padding-bottom: 0;
+  }
+  .redl-form-textarea textarea {
+    height: 150px;
+  }
+  /* FAQ Page CSS */
+  .redl-main-container.style2 .secondary-wrap {
+    padding-right: 25px;
+  }
+  .redl-main-container.style2 .primary-wrap {
+    padding-left: 40px;
+  }
+  .faq-list {
+    padding-bottom: 25px;
+  }
+  .faq-type {
+    padding-bottom: 15px;
+    font-size: 24px;
+  }
+  .panel-title a {
+    padding-left: 25px;
+  }
+  /* Apldr Login Page CSS */
+  .redl-main-container.form-pages {
+    padding: 80px 0;
+  }
+  .form-pages .redl-box-form h5 {
+    margin-bottom: 25px;
+  }
+  /* Apldr Terms & Conditions Page CSS */
+  .redl-info-page {
+    padding: 50px 0 70px;
+  }
+  .redl-banner.video-banner {height: 700px;}
+
+}
+
+@media (max-width: 1200px) {
+
+	.subscribe-form .mc4wp-form {width: 100%;float: left;}
+
+}
+@media (max-width: 1199px) {
+
+	.ul-half ul li, #carousel-c .item .ul-half ul li {width: 100%;margin-bottom: 15px;}
+	.redl-clients span {display: inline-block;}
+
+}
+@media (max-width: 1024px) {
+
+	.redl-clients a {margin: 0 auto 30px;display: inline-block;}
+
+}
+@media screen and (max-width:1023px) {
+  .redl-main-container.container,
+  .redl-main-container.container > .container {width: 100%;}
+  .pricing-item {padding: 36px 25px 30px;}
+  /* Normal CSS */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+  .redl-heading-wrap .redl-heading {
+    font-size: 32px;
+  }
+  .redl-app-features {
+    padding-bottom: 50px;
+  }
+  .redl-service {
+    padding-bottom: 15px;
+    text-align: center !important;
+  }
+  .redl-service [class^="ti-"] {
+    padding-bottom: 8px;
+  }
+  .redl-service [class^="ti-"].ti-dashboard {
+    padding-bottom: 5px;
+  }
+  .redl-app-info {
+    padding: 80px 0;
+    text-align: center;
+  }
+  .redl-app-info .section-heading-wrap {
+    text-align: center;
+  }
+  .app-info-wrap {
+    padding: 0;
+  }
+  .redl-app-info .animateblock {
+    display: none;
+  }
+  .section-heading-wrap {
+    padding-bottom: 30px;
+  }
+  .redl-app-benefites {
+    padding-bottom: 60px;
+  }
+  .redl-benefites-wrap {
+    padding-top: 0;
+  }
+  .redl-benefites-wrap .col-md-4 {
+    text-align: center;
+  }
+  .redl-benefites-wrap .redl-service {
+    padding: 0 0 15px;
+  }
+  .app-picture {
+    display: none;
+  }
+  .redl-pricing .container {
+    width: 730px;
+  }
+  .pricing-item {
+    margin-bottom: 15px;
+  }
+  .pricing-item ul {
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .pricing-item ul li {
+    float: left;
+    width: 100%;
+    padding-right: 20px;
+  }
+  .pricing-item .clearfix {
+    text-align: left;
+  }
+  .redl-testimonials .container {
+    width: 730px;
+  }
+  .redl-get-app {
+    min-height: 10px;
+    padding: 80px 0;
+    text-align: center;
+  }
+  .redl-get-app .section-heading-wrap {
+    padding: 0 0 15px;
+    text-align: center;
+  }
+  .app-buttons {
+    padding-bottom: 10px;
+  }
+  .app-buttons img {
+    margin: 0 5px;
+  }
+  /* Web App Solid Page CSS */
+  .redl-app-features.style2, .redl-service.style2{
+    padding-bottom: 55px;
+    text-align: center;
+  }
+  .redl-app-features.style2 .container {
+    width: 730px;
+  }
+  .redl-app-features.style2 .section-heading-wrap {
+    padding-bottom: 30px;
+  }
+  .redl-app-features.style2 .redl-service [class^="ti-"], .redl-service.style2 [class^="ti-"]{
+    width: 100%;
+  }
+  .redl-app-features.style2 .redl-service-name {
+    padding-bottom: 5px;
+  }
+  .redl-service-info {
+    clear: both;
+    padding: 0;
+  }
+  .redl-app-info.style2 .redl-video iframe {
+    height: 447px;
+  }
+  .redl-feature-deatil .feature-picture {
+    display: inline-block;
+    margin: 0;
+  }
+  .redl-feature-deatil.style2 .feature-info-wrap {
+    padding: 0 0 50px;
+  }
+  .redl-status-info .col-md-3 {
+    width: 25%;
+  }
+  .free-trial {
+    padding-top: 30px;
+  }
+  .redl-team .col-md-4 {
+    width: 50%;
+    padding: 0 15px !important;
+    text-align: center;
+  }
+  /* Web Service Solid Page CSS */
+  .redl-app-features.style3 .col-md-4, .redl-service.style3 {
+    margin-bottom: 25px;
+  }
+  .learn-more {
+    padding-top: 0;
+  }
+  .redl-app-overview .col-md-7, .redl-app-overview .col-md-5 {
+    height: auto;
+  }
+  .redl-app-overview .overview-picture {
+    margin-bottom: 20px;
+  }
+  .redl-testimonials.style3 .container {
+    width: 730px;
+  }
+  .redl-app-overview .nav-tabs {
+    margin-top: 30px;
+  }
+  .redl-app-overview .nav-tabs > li > a {
+    padding: 15px 10px;
+  }
+  .subscribe-form input[type="email"], .subscribe-form input[type="text"] {
+    width: 65%;
+  }
+  .subscribe-form input[type="submit"] {
+    min-width: 35%;
+  }
+  /* Blog Page CSS */
+  .redl-primary {
+    width: 100%;
+  }
+  .redl-primary:after{
+    display: none;
+  }
+  .primary-wrap {
+    padding-right: 0;
+  }
+  .redl-secondary {
+    width: 100%;
+    background: #fdfefe;
+    border: 1px solid #f0f1f1;
+  }
+  .secondary-wrap {
+    padding: 40px 40px 15px;
+  }
+  .redl-secondary:before,
+  .style2 .redl-secondary:after {content: none;}
+  .redl-secondary {margin-bottom: 60px;}
+  .style2 .redl-secondary {margin-top: 60px;margin-bottom: 0;}
+  /* FAQ Page CSS */
+  .redl-main-container.style2 .primary-wrap {
+    padding-left: 0;
+  }
+  .sidebar-nav.fixed {
+    position: static;
+    padding: 0;
+  }
+  .redl-main-container.style2 .secondary-wrap {
+    padding: 40px;
+  }
+  .sidebar-nav ul li a {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  /* Apldr Terms & Conditions Page CSS */
+  .redl-info-page {
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+
+/* Tab Starting */
+@media (max-width: 992px) {}
+@media (max-width: 991px) {
+
+  .redl-caption-wrap .redl-box-form {padding: 0;}
+  .redl-box-form.style-three .vc_column-inner {width: 100%;}
+	body .redl-banner-special.redl-header .redl-btn:hover {color: #232323;}
+	body .redl-header.redl-banner-special.fixed .redl-btn:hover {border-color: #036ded;}
+	.pricing-tables.vc_row {margin-left: 0;margin-right: 0;}
+	.redl-banner.video-banner.app-video-banner-height {height: 600px;}
+
+}
+
+@media screen and (max-width:979px) {
+  /* Normal CSS */
+  .redl-app-screens .owl-item img {
+    width: auto;
+    max-width: 277px;
+    display: block;
+    margin: auto;
+  }
+  /* Mobile App Solid Page CSS */
+  .redl-app-view {
+    padding: 80px 0;
+  }
+  .redl-app-view .container {
+    max-width: 730px;
+  }
+  #carousel-a, #carousel-b {
+    display: none;
+  }
+  #carousel-c {
+    width: 100%;
+    margin: 0 10px;
+    text-align: left;
+  }
+  #carousel-c .item {
+    min-height: 325px;
+  }
+  #carousel-c .item ul {
+    overflow: hidden;
+    clear: both;
+    padding-bottom: 15px;
+  }
+  #carousel-c .carousel-control {
+    float: left;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 10px;
+  }
+  #carousel-c .carousel-indicators {
+    left: 0;
+  }
+}
+
+@media screen and (max-width:899px) {
+  /* Normal CSS */
+  .redl-header {
+    padding: 20px 0;
+  }
+  .redl-heading-wrap .redl-heading {
+    padding-bottom: 12px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .redl-heading-wrap .redl-sub-heading {
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .redl-app-features {
+    padding: 40px 0 15px;
+  }
+  .section-heading-wrap {
+    padding-bottom: 20px;
+  }
+  .section-heading-wrap.style4 {
+    padding-bottom: 20px;
+  }
+  .section-heading-wrap .section-heading {
+    padding-bottom: 5px;
+    font-size: 26px;
+  }
+  .section-heading-wrap .section-sub-heading{
+    font-size: 16px;
+  }
+  .redl-app-info {
+    padding: 40px 0 50px;
+  }
+  .redl-app-info .section-heading-wrap {
+    padding-bottom: 0;
+  }
+  .redl-app-info .clearfix {
+    padding-top: 5px;
+  }
+  .redl-app-benefites {
+    padding: 40px 0 15px;
+  }
+  .redl-app-work {
+    padding: 40px 0 39px;
+  }
+  .play-btn span {
+    padding-left: 15px;
+  }
+  .redl-app-screens {
+    padding: 40px 0;
+  }
+  .redl-pricing {
+    padding: 40px 0 25px;
+  }
+  .redl-app-screens .section-heading-wrap, .redl-pricing .section-heading-wrap {
+    padding-bottom: 20px;
+  }
+  .redl-testimonials, .redl-testimonials.style2 {
+    padding: 40px 0;
+  }
+  .redl-get-app, .redl-subscribe-form, .redl-subscribe-form.style2 {
+    padding: 50px 0;
+  }
+  .redl-copyright {
+    padding: 30px 0;
+  }
+  /* Mobile App Solid Page CSS */
+  .redl-app-view {
+    padding: 50px 0;
+  }
+  /* Web App Solid Page CSS */
+  .redl-banner.center-align .redl-sub-heading {
+    padding-bottom: 20px;
+  }
+  .redl-app-features.style2 {
+    padding-bottom: 15px;
+  }
+  .redl-app-info.style2 {
+    padding: 40px 0;
+  }
+  .redl-app-info.style2 .app-info-wrap {
+    padding-bottom: 30px;
+  }
+  .redl-feature-deatil {
+    padding: 40px 0;
+  }
+  .redl-feature-deatil.style2 .feature-info-wrap {
+    padding-bottom: 35px;
+  }
+  .redl-pricing.style2 .section-heading-wrap {
+    padding-bottom: 15px;
+  }
+  .nav-tabs{
+    margin-bottom: 15px;
+  }
+  .free-trial {
+    padding-top: 15px;
+  }
+  .redl-team {
+    padding: 40px 0 20px;
+  }
+  .redl-team .section-heading-wrap {
+    padding-bottom: 20px;
+  }
+  .redl-clients {
+    padding: 40px 0 10px;
+  }
+  .redl-clients h4 {
+    margin-bottom: 30px;
+  }
+  /* Web Service Solid Page CSS */
+  .redl-app-features.style3, .redl-app-info.style3, .redl-app-overview, .redl-testimonials.style3, .primary-footer {
+    padding: 40px 0;
+  }
+  .redl-app-overview .nav-tabs {
+    margin-top: 20px;
+  }
+  .redl-testimonials.style3 .section-heading-wrap {
+    padding-bottom: 5px;
+  }
+  .redl-clients.style2 {
+    padding: 50px 0 20px;
+  }
+  .redl-free-trial {
+    padding: 50px 0;
+  }
+  .redl-custom-map {
+    height: 300px;
+  }
+  /* Blog Page CSS */
+  .archive .redl-header,
+  .category .redl-header,
+  .single .redl-header,
+  .blog .redl-header,
+  .search .redl-header,
+  .page .redl-header,
+  .error404 .redl-header {
+    padding: 20px 0;
+  }
+  .primary-wrap {
+    padding: 40px 0;
+  }
+  /* Apldr Terms & Conditions Page CSS */
+  .redl-info-page {
+    padding: 30px 0 0;
+  }
+  .redl-info-page h3 {
+    padding: 8px 0;
+    font-size: 22px;
+  }
+  .redl-info-page p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .redl-info-page p:last-child {
+    margin-bottom: 0;
+  }
+  .redl-info-page ul {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .redl-info-page ul li {
+    margin-bottom: 10px;
+  }
+  .redl-info-page ul li:before {
+    top: 7px;
+  }
+}
+
+@media (max-width: 800px) {
+
+	.fluid-width-video-wrapper {padding-top: 61.802% !important;}
+  .map-with-contact-form.vc_column_container,
+  .map-with-contact-form {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+}
+@media (max-width: 768px) {
+
+	.vc_row.vc_column-gap-35 > .vc_column_container {padding: 0 !important;}
+	.pricing-tables .vc_column-inner {padding-left: 15px !important;padding-right: 15px !important;}
+
+}
+@media (max-width: 767px) {
+
+	.redl-testimonial-carousel {margin-top: 20px;}
+  .redl-video {margin-top: 40px;text-align: center;}
+  #video-wrap.redl-video {margin-top: 0;height: auto !important;}
+  .fluid-width-video-wrapper {padding-top: 48.8987% !important;}
+  .awesome-app-service .vc_column-inner {padding-left: 35px !important;}
+  .redl-service-form {display: none;}
+  .redl-banner.video-banner.app-video-banner-height {height: auto;}
+  .map-with-contact-form.vc_column_container,
+  .map-with-contact-form {
+    padding: 50px 5% 80px 5%;
+  }
+
+  /* Normal CSS */
+  textarea {
+    height: 120px;
+  }
+  .redl-main-container.container{
+    margin: 0;
+  }
+  .redl-get-app .animateblock {display: none;}
+  .section-heading-wrap .section-heading,.section-heading-wrap .section-sub-heading{
+    text-align: center !important;
+  }
+  .redl-box-form.style-three .vc_column-inner {width: 400px;}
+  .redl-banner.video-banner {height: auto;}
+  .archive .redl-main-container > .container,
+  .archive .redl-header > .container,
+  .category .redl-main-container > .container,
+  .category .redl-header > .container,
+  .single .redl-main-container > .container,
+  .single .redl-header > .container,
+  .blog .redl-main-container > .container,
+  .blog .redl-header > .container,
+  .search .redl-main-container > .container,
+  .search .redl-header > .container,
+  .page .redl-main-container > .container,
+  .page .redl-header > .container,
+  .error404 .redl-main-container > .container,
+  .error404 .redl-header > .container {
+    padding: 0 15px;
+  }
+
+  .redl-banner .redl-caption-wrap >.vc_row.wpb_row .wpb_column.vc_column_container {
+    height: 100%;
+    vertical-align: middle;
+    /*display: table-cell;*/
+    float: none;
+    padding: 0;
+    text-align: center;
+  }
+  .redl-caption-wrap .wpb_single_image.wpb_content_element {text-align: center;}
+  .redl-caption-wrap .wpb_column .redl-btn {margin-bottom: 35px;}
+  .redl-btn-large {
+    min-width: 180px;
+    padding: 14px 24px 12px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a {
+    padding: 7px 20px;
+    line-height: 26px;
+  }
+  ul.navbar-nav {
+    margin: 0;
+  }
+  .redl-caption-wrap {
+    padding-top: 70px;
+  }
+  .redl-caption-wrap .redl-box-form h5 {
+    margin-bottom: 10px;
+  }
+  .redl-box-form input[type="text"],
+  .redl-box-form input[type="email"],
+  .redl-box-form input[type="password"],
+  .redl-box-form input[type="tel"],
+  .redl-box-form input[type="search"],
+  .redl-box-form input[type="date"],
+  .redl-box-form input[type="time"],
+  .redl-box-form input[type="datetime-local"],
+  .redl-box-form input[type="month"],
+  .redl-box-form input[type="url"],
+  .redl-box-form input[type="number"],
+  .redl-box-form textarea,
+  .redl-box-form select,
+  .redl-box-form .form-control {
+    margin-bottom: 10px;
+  }
+  .redl-box-form input[type="submit"] {
+    margin-top: 5px;
+  }
+  .redl-heading-wrap .redl-heading {
+    padding-bottom: 8px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .redl-heading-wrap .redl-sub-heading {
+    padding-bottom: 15px;
+    font-size: 14px;
+  }
+  .redl-heading-wrap .clearfix {
+    display: none;
+  }
+  .section-heading-wrap, .section-heading-wrap.style4 {
+    padding-bottom: 15px;
+  }
+  .section-heading-wrap .section-heading, .section-heading-wrap.style4 .section-heading {
+    font-size: 24px;
+  }
+  .redl-app-features, .redl-app-benefites {
+    padding: 30px 0 10px;
+  }
+  .redl-benefites-wrap .redl-service-name {
+    font-size: 16px;
+  }
+  .redl-service {
+    padding-bottom: 5px;
+  }
+  .redl-service [class^="ti-"] {
+    padding-bottom: 5px;
+  }
+  .redl-service-name {
+    padding-bottom: 5px;
+    font-size: 16px;
+  }
+  .redl-app-info, .redl-app-screens,
+  .redl-testimonials {
+    padding: 30px 0;
+  }
+  .redl-benefites-wrap .redl-service {
+    padding-bottom: 5px;
+  }
+  .redl-app-screens .section-heading-wrap,
+  .redl-pricing .section-heading-wrap {
+    padding-bottom: 15px;
+  }
+  .redl-default-slider .owl-dots {
+    padding-top: 20px;
+  }
+  .redl-pricing {
+    padding: 30px 0 0;
+  }
+  .pricing-item {
+    padding: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  .pricing-item h5 {
+    margin-bottom: 10px;
+  }
+  .pricing-item h1 {
+    font-size: 45px;
+  }
+  .pricing-item ul {
+    padding: 5px 0 10px;
+  }
+  .pricing-item ul li {
+    width: 100%;
+    padding-right: 0;
+  }
+  .section-heading-wrap.style2 {
+    padding-bottom: 5px;
+  }
+  .section-heading-wrap.style2 .section-heading {
+    font-size: 24px;
+  }
+  .section-heading-wrap.style3 .section-heading {
+    padding-bottom: 5px;
+    font-size: 28px;
+  }
+  .redl-testimonials p {
+    font-size: 15px;
+    line-height: 28pc;
+  }
+  .testimonial-owner {
+    padding-top: 5px;
+  }
+  .testimonial-owner img {
+    margin-bottom: 5px;
+  }
+  .redl-get-app, .redl-subscribe-form {
+    padding: 0;
+  }
+  .redl-get-app .section-heading-wrap {
+    padding-bottom: 10px;
+  }
+  #get_the_app .vc_column-inner {
+    padding: 0 !important;
+    text-align: center;
+  }
+  /* Mobile App Solid Page CSS */
+  .redl-app-view {
+    padding: 30px 0;
+  }
+  .redl-app-view .container {
+    max-width: 100%;
+  }
+  .redl-app-view .carousel-control {
+    width: 45px;
+    height: 45px;
+  }
+  #carousel-c .item {
+    min-height: 280px;
+  }
+  #carousel-c .app-screen-info {
+    padding-top: 10px;
+  }
+  #carousel-c .item ul {
+    padding: 0 0 15px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  #carousel-c .item ul li span {
+    top: 1px;
+  }
+  #carousel-c .carousel-indicators {
+    display: none;
+  }
+  /* Web App Solid Page CSS */
+  .redl-banner.center-align .redl-caption-wrap {
+    padding-top: 150px;
+  }
+  .redl-banner.center-align .redl-heading {
+    padding-bottom: 8px;
+  }
+  .redl-banner.center-align .redl-sub-heading {
+    padding-bottom: 15px;
+  }
+  .redl-app-features.style2 {
+    padding-bottom: 10px;
+  }
+  .redl-app-features.style2 .section-heading-wrap{
+    padding-bottom: 15px;
+  }
+  .redl-app-info.style2, .redl-feature-deatil {
+    padding: 30px 0;
+  }
+  .redl-app-info.style2 .redl-video iframe {
+    height: 250px;
+  }
+  .feature-info-wrap {
+    padding-top: 20px;
+  }
+  .feature-info-wrap h2 {
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .feature-info-wrap h4 {
+    font-size: 16px;
+  }
+  .feature-info-wrap ul {
+    font-size: 15px;
+    padding-left: 0 !important;
+  }
+  .feature-info-wrap ul li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .feature-info-wrap p {
+    font-size: 14px;
+  }
+  .redl-feature-deatil.style2 .feature-info-wrap {
+    padding-bottom: 20px;
+  }
+  .redl-feature-deatil.style2 .clearfix {
+    padding-top: 0;
+  }
+  .redl-testimonials, .redl-testimonials.style2 {
+    padding: 30px 0;
+  }
+  .redl-pricing.style2 .section-heading-wrap {
+    padding-bottom: 5px;
+  }
+  .free-trial {
+    padding-top: 0;
+  }
+  .redl-pricing.style2 {
+    padding-bottom: 30px;
+  }
+  .redl-status-info {
+    padding: 50px 0 40px;
+  }
+  .redl-status-info .col-md-3 {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .redl-status-info .counter {
+    padding-bottom: 0;
+  }
+  .redl-team {
+    padding: 30px 0 5px;
+  }
+  .redl-team .section-heading-wrap {
+    padding-bottom: 10px;
+  }
+  .redl-team .col-md-4 {
+    width: 100%;
+    padding: 0 !important;
+  }
+  .redl-clients {
+    padding-bottom: 20px;
+  }
+  .redl-clients img {
+    margin: 0 5px 20px;
+  }
+  .redl-clients h4 {
+    margin-bottom: 25px;
+  }
+  .redl-subscribe-form.style2 {
+    padding: 30px 0;
+  }
+  .redl-subscribe-form.style2 .section-heading-wrap {
+    padding-bottom: 10px;
+  }
+  /* Web Service Solid Page CSS */
+  .redl-app-features.style3 .redl-service {
+    padding: 25px 25px 15px;
+  }
+  .redl-app-features.style3 .redl-service-name {
+    padding-bottom: 5px;
+  }
+  .redl-app-info.style3 .section-heading {
+    font-size: 24px;
+  }
+  .redl-app-features.style3,
+  .redl-app-info.style3,
+  .redl-app-overview,
+  .redl-testimonials.style3,
+  .primary-footer {
+    padding: 30px 0;
+  }
+  .redl-app-overview .nav-tabs {
+    margin-top: 10px;
+  }
+  .redl-app-overview .nav-tabs > li {
+    width: 100%;
+  }
+  .redl-app-overview .nav-tabs > li > a {
+    font-size: 12px;
+  }
+  .redl-app-overview p{
+    font-size: 14px;
+  }
+  .redl-custom-map {
+    height: 250px;
+  }
+  .contact-form {
+    padding: 30px;
+  }
+  .redl-footer .col-md-4 {
+    width: 100%;
+  }
+  .redl-footer h6 {
+    margin: 15px 0 10px;
+  }
+  .contact-links p {
+    margin-bottom: 10px;
+  }
+  .subscribe-form {
+    padding-top: 0;
+  }
+  .subscribe-form p {
+    margin-bottom: 20px;
+  }
+  /* Blog Page CSS */
+  .redl-page-heading {
+    padding: 30px 0;
+  }
+  .redl-page-heading h2 {
+    font-size: 24px;
+  }
+  .primary-wrap {
+    padding: 25px 0;
+  }
+  .mfp-wrap.mfp-ready .mfp-close {
+    background: transparent;
+    height: 16px;
+    right: 15px;
+    top: 15px;
+    width: 16px;
+  }
+  .news-item {
+    padding-bottom: 20px;
+  }
+  .blog-picture {
+    padding-bottom: 20px;
+  }
+  .blog-title {
+    padding: 8px 0;
+    font-size: 20px;
+  }
+  .secondary-wrap {
+    padding: 25px 25px 5px;
+  }
+  .search-box {
+    padding-bottom: 5px;
+  }
+  .item-bullets ul li {
+    margin-bottom: 10px;
+  }
+  /* Blog Single Page CSS */
+  .blog-detail h4 {
+    margin-bottom: 5px;
+  }
+  .blog-detail p {
+    margin-bottom: 10px;
+    line-height: 26px;
+  }
+  blockquote {
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  code {
+    padding: 20px 25px;
+    margin-bottom: 20px;
+  }
+  .blog-picture.spacer {
+    padding-bottom: 20px;
+  }
+  .bp-bottom-meta {
+    padding-top: 10px;
+  }
+  .bp-tags {
+    width: 100%;
+  }
+  .bp-share {
+    width: 100%;
+  }
+  .bp-share > ul {
+    margin: 15px 0 0;
+  }
+  .author-content .author-name {
+    margin-bottom: 2px;
+  }
+  .redl-comments-area .comment-wrapper {
+    padding-bottom: 5px;
+  }
+  .redl-form-textarea,
+  .redl-form-inputs {
+    padding-bottom: 10px;
+  }
+  .redl-form-textarea textarea {
+    height: 120px;
+  }
+  /* FAQ Page CSS */
+  .redl-main-container.style2 .secondary-wrap {
+    padding: 25px;
+  }
+  .faq-list {
+    padding-bottom: 20px;
+  }
+  .faq-type {
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .panel-title a {
+    padding: 15px 45px 15px 20px;
+  }
+  .panel-content {
+    padding: 20px 25px 8px;
+  }
+  .panel-content p {
+    margin-bottom: 10px;
+  }
+  /* Apldr Login Page CSS */
+  .redl-main-container.form-pages {
+    padding: 30px 0;
+  }
+  .form-pages .redl-box-form h4 {
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .form-pages .redl-box-form h5 {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .redl-app-overview .section-heading {
+    text-align: left !important;
+  }
+  .redl-app-overview .wpb_text_column,
+  .redl-app-overview ul.overview-bullets li,
+  .redl-app-overview ul.overview-bullets.style2 li {
+    text-align: left;
+  }
+
+  /* Apldr Terms & Conditions Page CSS */
+  .redl-info-page {
+    padding-top: 15px;
+  }
+
+  .hide-desktop {display: inline-block;}
+  .hide-mobile {display:none;}
+
+}
+
+/* Mobile Starts */
+@media (max-width: 667px) {
+
+	.redl-copyright .pull-left {width: 100%;text-align: center;margin: 0 0 20px;}
+	.redl-copyright .pull-right {width: 100%;text-align: center;}
+	blockquote, .wpb_text_column blockquote:last-child {margin: 10px 30px 40px 30px;}
+	.redl-main-container .bp-share > ul {margin: 20px 0 0;}
+
+}
+
+@media screen and (max-width:599px) {
+  /* Normal CSS */
+  .redl-heading-wrap .redl-heading {
+    padding-bottom: 5px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .section-heading-wrap .section-sub-heading {
+    line-height: 22px;
+  }
+  .redl-caption-wrap .redl-box-form {
+    padding: 25px 25px 30px;
+  }
+  .section-heading-wrap.style3 .section-heading {
+    font-size: 26px;
+  }
+  .redl-app-screens .owl-item img {
+    max-width: 100%;
+  }
+  .app-buttons img {
+    width: 150px;
+    margin: 0 2px;
+  }
+  .form-wrap {
+    float: left;
+    width: 100%;
+  }
+  .redl-footer ul li {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 8px;
+  }
+  /* Web Service Solid Page CSS */
+  .wpcf7 .wpcf7-form-control-wrap {
+    margin-bottom: 15px;
+  }
+  .redl-app-overview .overview-picture img {
+    max-width: 100%;
+  }
+  .redl-app-overview .section-heading {
+    font-size: 20px;
+  }
+  .redl-app-overview ul.overview-bullets li,
+  .redl-app-overview ul.overview-bullets.style2 li {
+    padding-left: 35px;
+    line-height: 22px;
+  }
+  .redl-app-overview ul.overview-bullets li [class^="ti-"],
+  .redl-app-overview ul.overview-bullets.style2 li [class^="ti-"] {
+    font-size: 20px;
+  }
+  .redl-app-overview ul.overview-bullets.style3 li:before {top: 0;}
+  .redl-contact .section-heading-wrap {padding-bottom: 10px;}
+  .contact-form {padding: 25px;}
+  /* Blog Single Page CSS */
+  blockquote {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .redl-author-info {text-align: center;}
+  .author-avatar {width: 100%;}
+  .author-content {
+    clear: both;
+    padding: 15px 0  0;
+  }
+  .redl-comments-area .comments li .children li {padding-left: 30px;}
+  .redl-comments-area .comment-image img {
+    width: 60px;
+    height: 60px;
+  }
+  .redl-form-inputs > input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .redl-comment-form input[type="submit"] {width: 100%;}
+
+  /* FAQ Page CSS */
+  .sidebar-nav h4 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  /* Apldr Login Page CSS */
+  .form-inner {
+    float: left;
+    width: 100%;
+  }
+  .form-pages .redl-box-form .forgot-link {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 0;
+  }
+  /* Apldr Terms & Conditions Page CSS */
+  .redl-info-page h3 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width:798px) {
+  .hide-tablet {display:none;}
+  .member-list{text-align: center;}
+}
+
+@media (max-width: 508px) {}
+@media (max-width: 480px) {}
+
+@media screen and (max-width:479px) {
+  /* Normal CSS */
+  .redl-header {padding: 15px 0;}
+  .redl-header .logo img {
+    width: 120px;
+    margin-top: 3px;
+  }
+  .redl-caption-wrap .redl-box-form {
+    width: auto;
+    margin: 0 15px;
+  }
+  .redl-box-form h4 {font-size: 18px;}
+  .redl-box-form h5 {font-size: 14px;}
+  .section-heading-wrap, .section-heading-wrap.style2,
+  .section-heading-wrap.style3, .section-heading-wrap.style4 {padding-bottom: 10px;}
+  .section-heading-wrap .section-heading,
+  .section-heading-wrap.style2 .section-heading,
+  .section-heading-wrap.style3 .section-heading,
+  .section-heading-wrap.style4 .section-heading {
+    padding-bottom: 5px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .section-heading-wrap .section-sub-heading {font-size: 14px;}
+  .play-btn i {
+    width: 55px;
+    height: 55px;
+  }
+  .play-btn i:before {
+    margin: -5px 0 0 -4px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 8px;
+  }
+  .play-btn span {padding-left: 10px;}
+  .redl-get-app .section-heading-wrap {padding-bottom: 0;}
+  .app-buttons img {
+    display: block;
+    margin: 10px auto;
+  }
+  .redl-subscribe-form input[type="submit"], .mc4wp-form input[type="submit"]{width: 100%;}
+  .app-buttons {
+    padding-bottom: 0;
+    float: none;
+    display: block;
+  }
+  .redl-copyright {text-align: center;}
+  .redl-copyright .pull-left {
+    width: 100%;
+    padding: 0 0 15px;
+  }
+  .redl-copyright .pull-right {width: 100%;}
+  .redl-footer .redl-widget{margin-bottom: 5px;}
+  /* Mobile App Solid Page CSS */
+  #carousel-c .item {min-height: 320px;}
+  /* Web App Solid Page CSS */
+  .redl-banner.center-align .redl-heading {padding-bottom: 5px;}
+  .redl-video .play-btn {margin: -27px 0 0 -27px;}
+  .redl-app-info.style2 .redl-video iframe {height: 200px;}
+  .feature-info-wrap h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .redl-status-info .col-md-3 {width: 100%;}
+  .redl-clients {padding: 30px 0 10px;}
+  .redl-clients h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .redl-clients img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  /* Web Service Solid Page CSS */
+  .subscribe-form input[type="email"],
+  .subscribe-form input[type="text"],
+  .redl-footer .mc4wp-form input[type="email"],
+  .secondary-wrap .mc4wp-form input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+  }
+  .subscribe-form input[type="submit"],
+  .redl-footer .mc4wp-form input[type="submit"],
+  .secondary-wrap .mc4wp-form input[type="submit"] {
+    min-width: 100%;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+  }
+  /* Blog Page CSS */
+  .redl-page-heading {padding: 25px 0;}
+  .redl-page-heading h2 {font-size: 20px;}
+  .blog-picture {padding-bottom: 15px;}
+  .meta-tags ul {font-size: 12px;}
+  .blog-title {
+    padding: 5px 0;
+    font-size: 18px;
+  }
+  .news-info {padding-left: 15px;}
+  .news-info a {font-size: 13px;}
+  /* Blog Single Page CSS */
+  .redl-comments-area .comment-main-area {
+    clear: both;
+    padding: 10px 0 0;
+  }
+  .redl-comments-area .comments li .children li {padding-left: 0;}
+  /* FAQ Page CSS */
+  .panel-title a {font-size: 15px;}
+  /* Apldr Login Page CSS */
+  .form-pages .redl-box-form h4 {font-size: 26px;}
+  .have-account {
+    padding-top: 15px;
+    font-size: 13px;
+  }
+  .redl-box-form.style-three .vc_column-inner {width: 100%;}
+}
+
+@media (max-width: 414px) {}
+@media (max-width: 375px) {
+
+	.error-content h1 {font-size: 160px;}
+
+}
+
+@media (max-width: 320px) {
+
+	.error-content h1 {font-size: 120px;}
+
+}
